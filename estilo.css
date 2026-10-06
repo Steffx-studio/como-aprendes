@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4ff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #292b45;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+.inicio {
+    background: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+button {
+    background: #5865f2;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 6px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#quiz {
+    display: none;
+    margin-top: 30px;
+}
+
+#resultado {
+    display: none;
+    margin-top: 30px;
+}
+
+.barra {
+    width: 100%;
+    height: 18px;
+    background: #e2e4ee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.barra div {
+    height: 100%;
+    width: 0%;
+    background: #5865f2;
+    transition: width 0.5s;
+}
+
+#progreso {
+    font-size: 14px;
+    color: #777;
+}
+/* MEJORA VISUAL */
+
+body {
+    background: linear-gradient(135deg, #eef2ff, #e8f7ff);
+    min-height: 100vh;
+}
+
+.inicio {
+    box-shadow: 0 15px 40px rgba(40, 50, 100, 0.12);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+button {
+    transition: transform 0.15s, opacity 0.15s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+#respuestas button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    background: #f0f2ff;
+    color: #292b45;
+    border: 2px solid transparent;
+}
+
+#respuestas button:hover {
+    background: #e4e7ff;
+    border-color: #5865f2;
+}
+
+#pregunta {
+    color: #292b45;
+    margin-bottom: 25px;
+}
+
+#mensaje-resultado {
+    font-size: 21px;
+    font-weight: bold;
+    color: #292b45;
+    margin-top: 30px;
+}
+.explicaciones {
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 2px solid #e2e4ee;
+    text-align: left;
+}
+
+.explicaciones h3 {
+    text-align: center;
+    color: #292b45;
+    font-size: 22px;
+}
+
+.explicaciones p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#mas-quizzes {
+    display: block;
+    margin: 25px auto 5px;
+}
